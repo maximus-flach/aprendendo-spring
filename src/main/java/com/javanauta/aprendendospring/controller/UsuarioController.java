@@ -29,6 +29,8 @@ public class UsuarioController {
         return ResponseEntity.ok(usuarioService.salvarUsuario(usuario));
     }
 
+
+
     @PostMapping("/login")
     public String login(@RequestBody UsuarioDTO usuarioDTO){
 
